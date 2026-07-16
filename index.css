@@ -1,0 +1,117 @@
+body {
+    background-color: #1F2937;
+    color: #ffffff;
+    margin: 0;
+    padding-left: 60px;
+    padding-right: 60px;
+    
+}
+
+.line {
+    border: 1px solid #2F3E53;
+    height: 0px;
+    width: 100%;
+    margin-bottom: 35px
+}
+.h1-text {
+    margin-bottom: 0px;
+    font-family: "Karla", sans-serif;
+}
+
+.h2-text {
+    font-family: "Karla", sans-serif;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color: #4ADF86;
+}
+
+.p-text {
+    margin-top: 0px;
+    margin-bottom: 40px
+}
+
+button {
+    border-radius: 6px;
+    background-color: #4ADF86;
+    padding: 8px 6px 8px 6px;
+    color: white;
+    margin-bottom: 35px
+}
+
+input {
+    background-color: #273549;
+    border-radius: 5px;
+    padding: 5px 20px 5px 20px;
+    border: none;
+  
+}
+
+#passwordBox1 {
+     margin-right: 15px;
+     margin-bottom: 6px;
+     color: #55F991;
+     
+    }
+
+#passwordBox2 {
+     color: #55F991;
+     
+}
+
+
+#copyMsg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    opacity: 0;     /* hidden by default */
+    transition: opacity 0.3s;
+    padding-top: 20px;
+}
+
+.apply {
+    margin-bottom: 10px;
+}
+
+.btn-el2 {
+    margin-left: 10px;
+}
+
+#length-text {
+    margin-bottom: 2px;
+}
+
+#password-input {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color: #4ADF86;
+}
+
+#radio-els label  {
+    display: flex;
+    flex-direction: column;   /* 🔥 THIS is what you need */
+    justify-content: center;
+    align-items: flex-start;  /* better for vertical lists */
+    margin-bottom: 5px; 
+    margin-top: 0px;
+    
+}
+
+.in-one-line {
+    display: flex;
+    
+}
+#options-text {
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+#generate-btn2 {
+    margin-top: 20px;
+    margin-bottom: 10px; 
+}
+
+.radio-margin {
+    margin-right: 5px;
+}
+

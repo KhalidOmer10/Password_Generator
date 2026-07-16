@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Karla:ital,wght@0,800;1,800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="section1">
+            <h1 class="h1-text">Generate a </h1>
+            <h1 class="h2-text">random password</h1>
+            <p class="p-text">Never use an insecure password</p>
+        </div>
+        <div class="section2">
+            <button id="generate-btn" onclick="getPassword()">Generate password</button>
+            <button id="tailor-btn" class="btn-el2" onclick="customizedPassword()">Tailor your password</button>
+            <p id="length-text">Enter password length:</p>
+            <input type="text" id="password-input" onclick="" placeholder="e.x: 15">
+            <p id="options-text">I want my password to include:</p>
+            <div id="radio-els">
+                <label>
+                    <div class="in-one-line">
+                        <input type="radio" name="option" value="numbers" class="radio-margin">
+                        Only numbers
+                    </div>
+                </label>
+                <label>
+                    <div class="in-one-line">
+                        <input type="radio" name="option" value="symbols" class="radio-margin">
+                        Only symbols
+                    </div>
+                </label>
+                <label>
+                    <div class="in-one-line">
+                        <input type="radio" name="option" value="characters" class="radio-margin">
+                        Only characters
+                    </div>
+                </label>
+                <label>
+                    <div class="in-one-line">
+                        <input type="radio" name="option" value="Mix" class="radio-margin">
+                        Mix (numbers & symbols & characters)
+                    </div>
+                </label>
+            </div>
+            <div>
+                <button id="generate-btn2" onclick="getTailoredPassword ()">Generate password</button>
+            </div>
+            <div class="line"></div>
+            <p id="hint" class="apply"></p>
+        </div>
+        <div class="section3">
+            <input type="text" id="passwordBox1" onclick="copyPassword1()" placeholder="Your password will appear here" readonly>
+            <input type="text" id="passwordBox2" onclick="copyPassword2()" placeholder="Your password will appear here" readonly>
+            <span id="copyMsg">Copied!</span>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
